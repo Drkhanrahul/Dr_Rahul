@@ -393,3 +393,18 @@ footer {
         padding: 60px 8%;
     }
 }
+.btn-primary {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: #0a2540;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #163d63;
+}
