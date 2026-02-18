@@ -204,7 +204,7 @@ footer {
 
     .hero {
         height: auto;
-        min-height: auto;
+        min-height: 90vh;
         flex-direction: column;
         text-align: center;
         padding: 60px 20px 40px;
