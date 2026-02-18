@@ -199,3 +199,35 @@ footer {
         font-size: 22px;
     }
 }
+/* HERO MOBILE FIX */
+@media (max-width: 768px) {
+
+    .hero {
+        height: auto;
+        min-height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px 40px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 260px;
+        margin-top: 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+}
