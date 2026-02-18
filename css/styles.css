@@ -105,3 +105,55 @@ footer {
     background: #0a2e4d;
     color: white;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar nav a.active {
+    color: #0f4c81;
+}
+
+.about-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    background: #f5f8fb;
+}
+
+.about-hero-image img {
+    width: 320px;
+    border-radius: 12px;
+}
+
+.about-profile,
+.about-expertise,
+.about-academic,
+.about-philosophy,
+.about-cta {
+    padding: 60px 10%;
+}
+
+.about-expertise ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-expertise li {
+    background: #f0f4f8;
+    margin-bottom: 10px;
+    padding: 14px;
+    border-radius: 6px;
+}
