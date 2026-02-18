@@ -408,3 +408,58 @@ footer {
 .btn-primary:hover {
   background: #163d63;
 }
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.action-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
+
+.featured {
+  padding: 60px 20px;
+  background: #f4f8fb;
+  text-align: center;
+}
+
+.featured h2 {
+  margin-bottom: 30px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.feature-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+
+.cta-band {
+  background: linear-gradient(135deg, #0a2540, #1e4f7a);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-band h2 {
+  margin-bottom: 10px;
+}
+
+.cta-band p {
+  margin-bottom: 20px;
+}
