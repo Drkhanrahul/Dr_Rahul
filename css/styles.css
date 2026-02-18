@@ -463,3 +463,24 @@ footer {
 .cta-band p {
   margin-bottom: 20px;
 }
+footer {
+  background: #0a2540;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
